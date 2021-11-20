@@ -2,10 +2,10 @@
 # Licensed under the GNU Lesser General Public License. See LICENSE for details.
 
 cmake_minimum_required(VERSION 3.0)
-project(bytecoin)
+project(MangoInuCoin)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_C_STANDARD 11)
-set(CRYPTONOTE_NAME bytecoin)
+set(CRYPTONOTE_NAME MangoInuCoin)
 add_definitions(-DCRYPTONOTE_NAME=\"${CRYPTONOTE_NAME}\" -DNDEBUG=1)
 message("SANITIZE adds clang sanitizer options. Examples thread or address,undefined or fuzzer,address,undefined")
 option(BETTER_DEBUG "Disables optimizations. We do not use standard debug/realease configurations because they change too much" OFF)
